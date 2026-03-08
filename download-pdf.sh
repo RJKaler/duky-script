@@ -28,7 +28,7 @@ do
         break
     else
         echo "Download failed, retrying in 5s..."
-        sleep 5s
+        sleep 5
     fi
 done
 
