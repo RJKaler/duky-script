@@ -5,6 +5,8 @@
 #NOTE: This is done with the assumption that the owners of Hak5 will not issue a takedown request for a copyright infringment 
 #Run at your own risk. I do not endorse any unethical behavior regarding the actual physical manual. This is for a digital PDF and I don't think it's even sold in this form 
 
+#You can manually download a free copy here: https://shop.hak5.org/products/usb-rubber-ducky-e-book?srsltid=AfmBOoqYed-cFYrUBBfwFhIuVfM_7KLXx0fB6xCCaSbctgYuGHiQwl0w
+
 filesource="https://libgen.la/get.php?md5=8638619c05f6042d1b70b3658a2dba7b&key=WYLTVT5U83ADZXHV"
 
 #   curl -L -O "$filesource"  || echo 'error'
