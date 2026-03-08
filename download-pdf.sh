@@ -11,7 +11,6 @@
 # 6.14.0-37-generic #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
 
 
-filesource="https://libgen.la/get.php?md5=8638619c05f6042d1b70b3658a2dba7b&key=WYLTVT5U83ADZXHV"
 
 #   curl -L -O "$filesource"  || echo 'error'
 
@@ -25,9 +24,17 @@ do
   fi
 done
 
+if [[ "$PWD" == "$dir_target" ]]; then 
+echo "in correct dir..." 
+else 
+echo "error" 
+exit 1 
+fi
+
 while :
 do
-  if curl -fL -O -C - --retry 50 --retry-delay 5 --retry-all-errors "$filesource"; then
+ filesource="https://libgen.la/get.php?md5=8638619c05f6042d1b70b3658a2dba7b&key=WYLTVT5U83ADZXHV"
+ if curl -fL -O -C - --retry 50 --retry-delay 5 --retry-all-errors "$filesource"; then
         echo "Download complete!"
         break
     else
