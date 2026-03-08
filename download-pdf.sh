@@ -36,8 +36,7 @@ rename_file() {
 
 rename_file 
 
-open ./Rubber_Ducky.pdf 
-
+xdg-open Rubber_Ducky.pdf
 
 
 
