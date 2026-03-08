@@ -30,4 +30,14 @@ do
     fi
 done
 
+rename_file() {
+  mv -v get.php Rubber_Ducky.pdf
+}
+
+rename_file 
+
+open ./Rubber_ducky.pdf 
+
+
+
 
