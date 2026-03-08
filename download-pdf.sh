@@ -36,7 +36,7 @@ rename_file() {
 
 rename_file 
 
-open ./Rubber_ducky.pdf 
+open ./Rubber_Ducky.pdf 
 
 
 
